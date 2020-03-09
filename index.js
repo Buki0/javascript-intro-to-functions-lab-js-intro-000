@@ -20,9 +20,15 @@ function sayHiToGrandma(string){
   {
     return "I can't hear you!"
   }
-  else
+  else if(string===string.toUpperCase())
   {
     return "YES INDEED"
   }
+  else if(string.startsWith("I love you, Grandma"))
+  {
+    return "I love you,too"
+  }
+  
+  }
 
-}
+
